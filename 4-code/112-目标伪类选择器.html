@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.content{
+            display: none;
+        }
+        div.content:target{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- div:target 目标伪类选择器 -->
+    <div>
+        <a href="#aa">aa</a>
+        <div id="aa" class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis inventore rerum ut nisi consequatur numquam voluptates laborum sequi, totam asperiores! Repudiandae culpa quia similique, maiores possimus aliquam impedit! Explicabo, cum?
+        </div>
+    </div>
+    <div>
+        <a href="#bb">bb</a>
+        <div id="bb" class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis inventore rerum ut nisi consequatur numquam voluptates laborum sequi, totam asperiores! Repudiandae culpa quia similique, maiores possimus aliquam impedit! Explicabo, cum?
+        </div>
+    </div>
+    <div>
+        <a href="#cc">cc</a>
+        <div id="cc" class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis inventore rerum ut nisi consequatur numquam voluptates laborum sequi, totam asperiores! Repudiandae culpa quia similique, maiores possimus aliquam impedit! Explicabo, cum?
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "id": "3744305",
+  "name": "fonts",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1302",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "577368",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "629330",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "719188",
+      "name": "账单",
+      "font_class": "zhangdan",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5387553",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "eafe",
+      "unicode_decimal": 60158
+    },
+    {
+      "icon_id": "5730843",
+      "name": "付款",
+      "font_class": "fukuan",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "13397327",
+      "name": "飞机",
+      "font_class": "feiji",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    }
+  ]
+}

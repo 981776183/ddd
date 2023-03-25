@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        header,footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: orange;
+        }
+        nav,aside{
+            width: 100px;
+            height: 100%;
+            background: white;
+            float: left;
+        }
+        main{
+            float: left;
+            width: calc(100% - 200px);
+            background: white;
+            height: 100%;
+        }
+        main .article1{
+            height: 60%;
+        }
+        main .article2{
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <section>
+        <nav>
+            <figure>nav</figure>
+            <ul>
+                <li>11</li>
+            </ul>
+        </nav>
+        <main>
+            <article class="article1">
+                <header>article-header</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni deserunt quaerat explicabo totam sapiente quos, saepe incidunt maiores vitae. Iusto veritatis velit quasi quidem ullam fugit odit neque quas.</p>
+                <footer>article-footer</footer>
+            </article>
+            <article class="article2">
+                <header>article-header</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni deserunt quaerat explicabo totam sapiente quos, saepe incidunt maiores vitae. Iusto veritatis velit quasi quidem ullam fugit odit neque quas.</p>
+                <footer>article-footer</footer>
+            </article>
+        </main>
+        <aside>
+            <figure>aside</figure>
+            <p>Lorem ipsum rem.</p>
+        </aside>
+    </section>
+    <footer>footer</footer>
+</body>
+</html>
